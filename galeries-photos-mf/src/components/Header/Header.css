@@ -1,0 +1,58 @@
+/* Header.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap');
+
+/* Style du conteneur de l'en-tête */
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+/* Style du titre h1 */
+h1 {
+    font-size: 36px;
+    margin: 0;
+    letter-spacing: 3px;
+}
+
+/* Style de la bannière */
+.banner {
+    background-image: url('../../assets/Images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style du sous-texte dans la bannière */
+.banner p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Ajoutez des styles spécifiques pour les écrans de taille inférieure à 768 pixels (taille typique des téléphones) */
+@media (max-width: 768px) {
+    header {
+        padding: 10px; /* Ajustez la marge intérieure selon vos besoins pour les écrans plus petits */
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .banner {
+        height: 100px; 
+    }
+
+    .banner p {
+        font-size: 16px; /* Ajustez la taille du texte dans la bannière pour les écrans plus petits */
+    }
+}
