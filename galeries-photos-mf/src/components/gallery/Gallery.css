@@ -27,7 +27,7 @@ body {
 /* Gallery Container Styles */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjusted minmax value */
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
   gap: 20px;
   padding: 30px;
   border-radius: 10px;
